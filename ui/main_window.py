@@ -102,7 +102,7 @@ class MainWindow(QMainWindow):
         self.about_button = QPushButton("关于")
         self.about_button.clicked.connect(self._show_about)
 
-        self.drop_hint = QLabel("拖拽数织截图到窗口，或点击“导入截图”")
+        self.drop_hint = QLabel("拖拽数织截图到窗口，或者点击“导入截图”")
 
         self.row_clue_table = QTableWidget(10, 1)
         self.col_clue_table = QTableWidget(1, 10)
